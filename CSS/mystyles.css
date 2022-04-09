@@ -1,0 +1,90 @@
+@charset "UTF-8";
+/* Added by Aida Tuhcic, * is an universal selector */
+/* Following text below is explained by Aida Tuhcic. */
+* {
+  /* Box sizing sets the total width and height of the page. */
+  /* Border box includes content, border and padding of the width and height properties.  */
+    box-sizing: border-box; 
+}
+
+/* body element */
+html, body {
+    font-family: "Times New Roman", Georgia, Serif; 
+} 
+
+/* h1 to h6 selectors */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+}
+
+/* nav bar */
+.w3-bar {
+    opacity: none;
+    color: white; 
+    padding: 20px; 
+    letter-spacing: 4px; 
+}
+
+/* logo */
+.logo {
+    position: absolute; 
+    margin-left: 0px; 
+    margin-top: -55px; 
+}
+
+/* logo image */ 
+.logo img {
+    height: 150px;  
+}
+
+/* home id */
+#home { 
+    max-width:1600px;
+    min-width:500px; 
+}
+
+/* header img */
+.headerimg {
+    width: "1600"; 
+    height: "800";
+}
+
+/* body content */
+.w3-content {
+    max-width:1100px
+}
+
+/* about id */
+#about {
+    padding: 64px; 
+}
+
+/* menu id */
+#menu {
+    padding: 64px; 
+}
+
+/* footer */
+footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    left: 0; 
+    right: 0;
+    width: 100%;
+    padding: 32px; 
+    background-color: #1B5886; 
+}
+
+/* footer */
+.footer {
+    position: relative;
+}
+
+/* footer paragraph */ 
+.footer p { 
+     color: #ffffff; 
+     text-align: center; 
+     font-size: 1.2em;
+}
