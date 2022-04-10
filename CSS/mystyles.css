@@ -10,12 +10,17 @@
 /* body element */
 html, body {
     font-family: 'Arial', sans-serif; 
+    font-size: 1.01em; 
 } 
 
 /* h1 to h6 selectors */
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Arial', sans-serif; 
     letter-spacing: 5px;
+}
+
+h1 {
+    font-size: 1.75em; 
 }
 
 /* logo */
@@ -43,7 +48,7 @@ h1, h2, h3, h4, h5, h6 {
 /* nav bar a */
 .topnav a {
     float: right; 
-    display: block; /* behaviour of the element */
+    display: block; 
     color: #000000;
     text-align: center;
     padding: 25px 16px;
@@ -115,19 +120,12 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 10%;
 }
 
-/* body content */
-.w3-content {
-    max-width:1100px
-}
-
-/* about id */
-#about {
-    padding: 64px; 
-}
-
-/* menu id */
-#menu {
-    padding: 64px; 
+/* section */
+section {
+    padding: 50px; 
+    text-align: center;
+    line-height: 2.2rem;
+    background-color: #ffffff;
 }
 
 /* footer */
