@@ -1,24 +1,29 @@
 @charset "UTF-8";
-/* Added by Aida Tuhcic, * is an universal selector */
-/* Following text below is explained by Aida Tuhcic. */
+
+/* box sizing */
 * {
-  /* Box sizing sets the total width and height of the page. */
-  /* Border box includes content, border and padding of the width and height properties.  */
     box-sizing: border-box; 
 }
 
 /* body element */
 html, body {
+    position: absolute;
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+    height: 100%; 
+    width: 100%; 
     font-family: 'Arial', sans-serif; 
     font-size: 1.01em; 
 } 
 
-/* h1 to h6 selectors */
+/* h1 to h6 elements */
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Arial', sans-serif; 
     letter-spacing: 5px;
 }
 
+/* h1 element */
 h1 {
     font-size: 1.75em; 
 }
@@ -27,7 +32,7 @@ h1 {
 .logo {
     position: absolute; 
     margin-left: 0px; 
-    margin-top: -61.5px; 
+    margin-top: -63px; 
 }
 
 /* logo image */ 
@@ -48,58 +53,62 @@ h1 {
 /* nav bar a */
 .topnav a {
     float: right; 
-    display: block; 
+    padding: 25px 16px;
     color: #000000;
     text-align: center;
-    padding: 25px 16px;
     text-decoration: none;
     font-size: 1.1em;
 }
 
-/* nav bar hover links */
+/* nav bar link hovers */
 .topnav a:hover {
     background-color: #1B5886;
     color: #ffffff; 
+    height: 74px;
 }
 
-/* nav bar home button */
+/* home button */
 .topnav a.active {
     background-color: #eb9e29;
     color: white;
+    height: 74px; 
 }
   
-/* nav bar icon mobile */
+/* nav bar icon for smaller screens */
 .topnav .icon {
     color: #1B5886;
     float: right; 
     display: none;
 }
 
-/* nav bar icon mobile */
+/* nav bar icon hover for smaller screens */
 .topnav .icon a:hover {
-      color: #ffffff; 
+    color: #ffffff; 
 }
   
-/* mediq query for nav bar smaller devices */
-@media screen and (max-width: 720px) {
+/* some sources for the following code has been dervived from https://www.w3schools.com/howto/howto_js_topnav_responsive.asp
+/* media query for smaller devices (resize nav bar) */
+@media screen and (max-width: 760px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
       float: right;
       display: block;
     }
  }
-  
- /* mediq query for nav bar smaller devices */
-@media screen and (max-width: 720px) {
+
+/* some sources for the following code has been dervived from https://www.w3schools.com/howto/howto_js_topnav_responsive.asp
+/* media query for smaller devices (resize nav bar) */
+@media screen and (max-width: 760px) {
     .topnav.responsive {position: relative;}
     .topnav.responsive .icon {
-      float: left;
       position: absolute;
+      float: left;
       right: 0;
       top: 0;
 }
 
-/* nav bar for smaller devices*/
+/* some sources for the following code has been dervived from https://www.w3schools.com/howto/howto_js_topnav_responsive.asp
+/* media query for smaller devices (resize nav bar) */
 .topnav.responsive a {
     float: left;
     display: block;
@@ -108,21 +117,25 @@ h1 {
   }
 
 /* header image */
+/* the source of the image is from https://www.pexels.com/photo/scenic-view-of-mountain-during-dawn-2777934/ "Scenic View Of Mountain During Dawn" - free for commerical use. */
+/* the photographer and uploader of the image from PixaBay used is: Andre Furtado */
 .headerimg {
-    background: url("../images/torontobanner.jpg") no-repeat top center;
+    background: url("../images/torontobanner.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative; 
     width:100%;
+    position: relative; 
     display: block;
     padding-top: 20%;
     padding-bottom: 10%;
 }
 
-/* section */
+/* sections */
 section {
-    padding: 50px; 
+    padding: 10px; 
+    width: 90%;
+    margin: auto;
     text-align: center;
     line-height: 2.2rem;
     background-color: #ffffff;
@@ -131,12 +144,12 @@ section {
 /* footer */
 footer {
     position: relative;
+    padding: 32px; 
     left: 0;
     bottom: 0;
     left: 0; 
     right: 0;
     width: 100%;
-    padding: 32px; 
     background-color: #1B5886; 
 }
 
