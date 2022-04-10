@@ -9,45 +9,110 @@
 
 /* body element */
 html, body {
-    font-family: "Times New Roman", Georgia, Serif; 
+    font-family: 'Arial', sans-serif; 
 } 
 
 /* h1 to h6 selectors */
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Playfair Display";
+    font-family: 'Arial', sans-serif; 
     letter-spacing: 5px;
-}
-
-/* nav bar */
-.w3-bar {
-    opacity: none;
-    color: white; 
-    padding: 20px; 
-    letter-spacing: 4px; 
 }
 
 /* logo */
 .logo {
     position: absolute; 
     margin-left: 0px; 
-    margin-top: -55px; 
+    margin-top: -61.5px; 
 }
 
 /* logo image */ 
 .logo img {
     height: 150px;  
+    margin-top: 26px;
+    margin-left: 5px; 
 }
 
-/* home id */
-#home { 
-    max-width:1600px;
-    min-width:500px; 
+/* nav bar */
+.topnav {
+    background-color: #ffffff;
+    border-bottom: 10px solid #1B5886; 
+    overflow: hidden;
+    padding: 0px; 
 }
 
-/* header img */
+/* nav bar a */
+.topnav a {
+    float: right; 
+    display: block; /* behaviour of the element */
+    color: #000000;
+    text-align: center;
+    padding: 25px 16px;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+/* nav bar hover links */
+.topnav a:hover {
+    background-color: #1B5886;
+    color: #ffffff; 
+}
+
+/* nav bar home button */
+.topnav a.active {
+    background-color: #eb9e29;
+    color: white;
+}
+  
+/* nav bar icon mobile */
+.topnav .icon {
+    color: #1B5886;
+    float: right; 
+    display: none;
+}
+
+/* nav bar icon mobile */
+.topnav .icon a:hover {
+      color: #ffffff; 
+}
+  
+/* mediq query for nav bar smaller devices */
+@media screen and (max-width: 720px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+ }
+  
+ /* mediq query for nav bar smaller devices */
+@media screen and (max-width: 720px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      float: left;
+      position: absolute;
+      right: 0;
+      top: 0;
+}
+
+/* nav bar for smaller devices*/
+.topnav.responsive a {
+    float: left;
+    display: block;
+    text-align: center;
+    }
+  }
+
+/* header image */
 .headerimg {
-    width: "1600"; 
-    height: "800";
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/torontobanner.jpg") no-repeat top center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; 
+    width:100%;
+    display: block;
+    padding-top: 20%;
+    padding-bottom: 10%;
 }
 
 /* body content */
@@ -86,5 +151,5 @@ footer {
 .footer p { 
      color: #ffffff; 
      text-align: center; 
-     font-size: 1.2em;
+     font-size: 1.1em;
 }
