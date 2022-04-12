@@ -28,6 +28,8 @@ h1 {
     font-size: 1.75em; 
 }
 
+/****** beginning of nav bar and logo section *****/
+/****** created by Aida Tuhcic April 9th through 10th *****/
 /* logo */
 .logo {
     position: absolute; 
@@ -115,7 +117,10 @@ h1 {
     text-align: center;
     }
 }  
+/****** end of nav bar and logo section *****/
 
+/****** beginning of the header image *****/
+/****** created by Aida Tuhcic April 9th through 10th *****/
 /* header image */
 /* the source of the image is from https://www.pexels.com/photo/scenic-view-of-mountain-during-dawn-2777934/ - "Scenic View Of Mountain During Dawn" - free for commerical use. */
 /* the photographer and uploader of the image from PixaBay used is: Andre Furtado "@andre-furtado-43594" */
@@ -130,6 +135,7 @@ h1 {
     padding-top: 20%;
     padding-bottom: 10%;
 }
+/****** end of the header image *****/
 
 /* sections */
 section {
@@ -141,6 +147,8 @@ section {
     background-color: #ffffff;
 }
 
+/****** beginning of the teams.html section *****/
+/****** created by Aida Tuhcic April 11th through 12th *****/
 /* team summary */
 .teamsummary {
     padding: 8px; 
@@ -198,7 +206,10 @@ section {
         display: block;  
     }
 }
+/****** end of the teams.html section *****/
 
+/****** beginning of the footer section *****/
+/****** created by Aida Tuhcic April 9th through 10th *****/
 /* footer */
 footer {
     position: relative;
@@ -222,5 +233,6 @@ footer {
      text-align: center; 
      font-size: 1.1em;
 }
+/****** end of the footer section *****/
 
 
