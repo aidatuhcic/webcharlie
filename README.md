@@ -1,2 +1,2 @@
-# betawebsite
-Beta Website for the group Web Charlie 2022, GEOM 99.
+# webcharlie
+Website for the group Web Charlie 2022, GEOM 99.
