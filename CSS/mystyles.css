@@ -28,6 +28,10 @@ h1 {
     font-size: 1.75em; 
 }
 
+h2 {
+    font-size: 1.68em; 
+}
+
 /****** beginning of nav bar and logo section *****/
 /****** created by Aida Tuhcic April 9th through 10th *****/
 /* logo */
@@ -140,17 +144,67 @@ h1 {
 /* sections */
 section {
     padding: 10px; 
-    width: 90%;
+    width: 80%;
     margin: auto;
     text-align: center;
     line-height: 2.2rem;
     background-color: #ffffff;
 }
 
+/* summary process */
+.process-summary {
+    padding: 8px; 
+}
+
+/****** beginning of the process nav bar *****/
+/****** created by Aida Tuhcic April 13th *****/
+/* process navigation */
+.processnav {
+    padding-bottom: 30px; 
+}
+
+/* process navigation links */
+.processnav a {
+    background-color: #226da7; 
+    color: #ffffff; 
+    padding: 5px 5px; 
+    text-align: center; 
+    text-decoration: none;
+    width: 25%; 
+    display: inline-block;
+}
+
+/* media query for smaller devices (resizes the process navigation) */
+@media screen and (max-width: 1060px) {
+    .processnav a {
+        float: none;
+        outline: 2px solid #ffffff;
+        text-align: center;
+        display: block;
+        width: 100%;
+    }
+ }
+ /****** end of the process nav bar *****/
+
+/* mapbox maps */
+.mapbox-maps {
+    padding: 8px; 
+}
+
+/* experience builder */
+.experience-builder {
+    padding: 8px; 
+}
+
+/* geoserver */
+.geoserver {
+    padding: 8px; 
+}
+
 /****** beginning of the teams.html section *****/
 /****** created by Aida Tuhcic April 11th through 12th *****/
 /* team summary */
-.teamsummary {
+.team-summary {
     padding: 8px; 
 }
 
