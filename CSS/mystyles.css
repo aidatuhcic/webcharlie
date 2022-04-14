@@ -151,6 +151,60 @@ section {
     background-color: #ffffff;
 }
 
+/****** beginning of the resources section *****/
+/****** created by Aida Tuhcic April 13th *****/
+/* resources summary */
+.resource-summary {
+    padding: 8px; 
+}
+
+/* resources */
+.resources {
+    display: flex; 
+    justify-content: center;
+    margin: auto;
+    width: 90%; 
+    padding: 8px; 
+    line-height: 2.2rem;
+}
+
+/* resources link */
+.resources-link {
+    flex: 50%; 
+    margin: 30px; 
+    margin-left: 50px;
+}
+
+/* resources images */
+.resources-link img {
+    width: 100%; 
+    margin-top: -10px; 
+    margin-bottom: 5px;
+    border-radius: 50%;
+}
+
+/* resources links active */
+.resources-link a {
+    color: #000000;
+    text-decoration: none;
+    line-height: 1.8rem;
+}
+
+/* resources paragraph */
+.resources-link p {
+    border-bottom: 6px solid #eb9e29;
+    line-height: 2rem; 
+}
+
+/* media query for smaller devices (resizes the resources section) */
+@media screen and (max-width: 1060px) {
+    .resources {
+        width: 70%;
+        display: block; 
+    }
+ }
+/****** end of the resources section *****/
+
 /* summary process */
 .process-summary {
     padding: 8px; 
