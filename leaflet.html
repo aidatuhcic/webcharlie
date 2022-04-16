@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Leaflet display map</title>
+        <!-- Load Leaflet Js and Css-->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css">
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+        <!-- Load ESRI Leaflet-->
+        <script src="https://unpkg.com/esri-leaflet@3.0.4/dist/esri-leaflet.js"></script>
+        <script src="https://unpkg.com/esri-leaflet-vector@3.0.0/dist/esri-leaflet-vector.js"></script>
+        <!-- Load Leaflet MarkerCluster -->
+        <link rel="stylesheet" type="text/css"
+      href="https://unpkg.com/leaflet.markercluster@1.5.0/dist/MarkerCluster.Default.css"
+      integrity="sha512-6ZCLMiYwTeli2rVh3XAPxy3YoR5fVxGdH/pz+KMCzRY2M65Emgkw00Yqmhh8qLGeYQ3LbVZGdmOX9KUjSKr0TA=="
+      crossorigin="">
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/leaflet.markercluster@1.5.0/dist/MarkerCluster.css"
+      integrity="sha512-mQ77VzAakzdpWdgfL/lM1ksNy89uFgibRQANsNneSTMD/bj0Y/8+94XMwYhnbzx8eki2hrbPpDm0vD0CiT2lcg=="
+      crossorigin="">
+    <script src="https://unpkg.com/leaflet.markercluster@1.5.0/dist/leaflet.markercluster.js"
+      integrity="sha512-pWPELjRaw2ZdoT0PDi7iRpRlk1XX3rtnfejJ/HwskyojpHei+9hKpwdphC4yssNt4FM0TjMQOmMrk6ZYSn274w=="
+      crossorigin=""></script>
+    <script src="https://unpkg.com/esri-leaflet-cluster@2.1.0/dist/esri-leaflet-cluster.js"
+      integrity="sha512-fEdNFHisleVtEYdLhW4Z2RsR7TN6hLutE/+O4D+skfTNY2rlHm8HOZARPWkdrFFy/+i2KjFxcZAKTUWaVfbV0g=="
+      crossorigin=""></script>
+        
+
+        <style>
+            body {margin: 0; padding: 0;}
+            #map 
+            { 
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                right: 0;
+                left: 0;
+                font-size: 14px;
+                color: aqua;
+            }
+
+            .cluster {
+    background: #2d84c8;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    border: 1px solid #2d84c8;
+    font-family: monospace;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+}
+
+    .cluster:before {
+    content: ' ';
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+    top: 1px;
+    left: 1px;
+    right: 1px;
+    bottom: 1px;
+    border: 1px solid white;}
+
+
+    #info-pane {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 400;
+    padding: 1em;
+    background: rgb(0,0,255);
+  }
+
+
+
+
+    
+        </style>
+    </head>
+    <body>
+        <div id="map"></div>
+        <div id="info-pane" class="leaflet-bar">Hover over green space to Inspect</div>
+        <script>
+            const apiKey = "AAPKf95b727aad5c49ef84545ba2e1bece87l9giQmhenhn7erNtb7sWNCeu7I4B2xKnppb3xVVl4uoDcb-i7zEdLgPMQXVSyjgq"
+            const basemapEnum = "ArcGIS:Streets";
+// setting clustering parameter 1
+            const map = L.map("map",{maxZoom: 18 }).setView([43.779, -79.1003], 8);
+
+            L.esri.Vector.vectorBasemapLayer(basemapEnum, {apiKey: apiKey}).addTo(map);
+           // Custom icon
+            const icon = L.icon({
+                iconUrl: "https://i.imgur.com/PL60oqO.png",
+                iconSize: [27, 31],
+            });
+            
+
+            // Parks_of_Toronto 
+            var flayer = L.esri.featureLayer
+            ({
+               
+              url: "https://services3.arcgis.com/bjqIf00d81DaOdrn/ArcGIS/rest/services/parks/FeatureServer/0",
+              simplyFactor: 0.5,
+              precision: 5,
+              // layer style parameter
+              style: function (feature)
+               {
+                if (feature.properties.PARTY === 'Democrat')
+                 {return { color: 'blue', weight: 2 };} 
+                 else {return { color: '#65F750', weight: 1 };}
+               }
+            }).addTo(map);
+// top right widget parameter 3
+            var oldflayer;
+
+            flayer.bindPopup(function(layer)
+            {return L.Util.template("<b>{NAME}</b>",layer.feature.properties)});
+
+            flayer.on('mouseout', function (e){
+                document.getElementById('info-pane').innerHTML = 'Hover to Inspect';
+                flayer.resetFeatureStyle(oldflayer);
+            });
+
+            flayer.on('mouseover', function (e){
+                oldflayer = e.layer.feature.id;
+                document.getElementById('info-pane').innerHTML = e.layer.feature.properties.NAME;
+                flayer.setFeatureStyle(e.layer.feature.id,{
+                    color: '#9D78D2',weight: 3,opacity: 1
+                });
+            });
+            
+            // BLT and inserting cluster parameter 2
+
+            var flayer1 = L.esri.Cluster.featureLayer({
+                url: "https://services3.arcgis.com/bjqIf00d81DaOdrn/ArcGIS/rest/services/BLT/FeatureServer/0",
+                pointToLayer: function (geojson, latlng){
+                    return L.marker(latlng, {icon: icon});
+                },
+
+                // cluster custom market parameter 2
+
+                iconCreateFunction: function (cluster) {
+                   var count = cluster.getChildCount();
+                   var digits = (count + '').length;
+                return L.divIcon({
+                    html: count,
+                    className: 'cluster ' + digits,
+                    iconSize: null
+                });
+            },
+        }).addTo(map);
+
+        
+
+
+                
+
+
+
+        </script>
+    </body>
+</html>
