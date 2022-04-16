@@ -157,21 +157,21 @@ section {
     background-color: #ffffff;
 }
 
+/* problem background */
 .problem-background {
     float: right; 
     padding: 8px; 
 }
 
+/* problem background h3*/
 .problem-background h3 {
     padding: 8px; 
 }
 
-/****** beginning of the problem statement section *****/
-/****** created by Aida Tuhcic April 15th *****/
+/* problem statement */
 .problem-statement {
     padding: 8px;
 }
-/****** end of the resources section *****/
 
 /****** beginning of the resources section *****/
 /****** created by Aida Tuhcic April 13th *****/
@@ -273,8 +273,8 @@ section {
     padding: 8px; 
 }
 
-/* geoserver */
-.geoserver {
+/* comparisons */
+.comparisons {
     padding: 8px; 
 }
 
