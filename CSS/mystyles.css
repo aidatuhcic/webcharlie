@@ -228,7 +228,73 @@ section {
  }
 /****** end of the resources section *****/
 
-/* summary process */
+/* timeline process */
+.timeline-summary {
+    padding: 8px; 
+}
+
+/****** beginning of the timeline nav bar *****/
+/****** created by Aida Tuhcic April 16th *****/
+/* timeline navigation */
+.timelinenav {
+    padding-bottom: 20px; 
+}
+
+/* timeline navigation links */
+.timelinenav a {
+    background-color: #226da7; 
+    color: #ffffff; 
+    padding: 5px 5px; 
+    text-align: center; 
+    text-decoration: none;
+    border-bottom: 10px solid #ffffff;
+    width: 25%; 
+    display: inline-block;
+}
+
+/* media query for smaller devices (resizes the timeline navigation) */
+@media screen and (max-width: 1060px) {
+    .timelinenav a {
+        float: none;
+        outline: 2px solid #ffffff;
+        text-align: center;
+        display: block;
+        width: 100%;
+    }
+ }
+ /****** end of the timeline nav bar *****/
+
+/* week 9 section */ 
+.week9 {
+    padding: 8px; 
+}
+
+/* week 10 section */ 
+.week10 {
+    padding: 8px; 
+}
+
+/* week 11 section */ 
+.week11 {
+    padding: 8px; 
+}
+
+/* week 12 section */ 
+.week12 {
+    padding: 8px; 
+}
+
+/* week 13 section */ 
+.week13 {
+    padding: 8px; 
+}
+
+/* week 14 section */ 
+.week14 {
+    padding: 8px; 
+}
+
+/* process summary */
 .process-summary {
     padding: 8px; 
 }
@@ -237,7 +303,7 @@ section {
 /****** created by Aida Tuhcic April 13th *****/
 /* process navigation */
 .processnav {
-    padding-bottom: 30px; 
+    padding-bottom: 20px; 
 }
 
 /* process navigation links */
@@ -263,20 +329,71 @@ section {
  }
  /****** end of the process nav bar *****/
 
-/* mapbox maps */
+/* mapbox maps process section */
 .mapbox-maps {
     padding: 8px; 
 }
 
-/* experience builder */
+/* experience builder process section */
 .experience-builder {
     padding: 8px; 
 }
 
-/* comparisons */
+/* comparisons process section */
 .comparisons {
     padding: 8px; 
 }
+
+/* solutions summary */
+.solutions-summary {
+    padding: 8px; 
+}
+
+/****** beginning of the solutions nav bar *****/
+/****** created by Aida Tuhcic April 16th *****/
+/* solution navigation */
+.solutionsnav {
+    padding-bottom: 25px; 
+}
+
+/* solutions navigation links */
+.solutionsnav a {
+    background-color: #226da7; 
+    color: #ffffff; 
+    padding: 5px 5px; 
+    text-align: center; 
+    text-decoration: none;
+    border-bottom: 10px solid #ffffff;
+    width: 25%; 
+    display: inline-block;
+}
+
+/* media query for smaller devices (resizes the solution navigation) */
+@media screen and (max-width: 1060px) {
+    .solutionsnav a {
+        float: none;
+        outline: 2px solid #ffffff;
+        text-align: center;
+        display: block;
+        width: 100%;
+    }
+ }
+ /****** end of the solutions nav bar *****/
+
+ /* mapbox solution section */
+ .mapbox-solution {
+     padding: 8px; 
+ }
+
+ /* experience builder solution section */
+ .experiencebuilder-solution {
+     padding: 8px; 
+ }
+
+ /* future possibilities solution section */
+ .future {
+     padding: 8px; 
+ }
 
 /****** beginning of the teams.html section *****/
 /****** created by Aida Tuhcic April 11th through 12th *****/
@@ -369,5 +486,3 @@ footer {
      font-size: 1.1em;
 }
 /****** end of the footer section *****/
-
-
