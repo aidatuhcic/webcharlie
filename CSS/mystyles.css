@@ -28,8 +28,14 @@ h1 {
     font-size: 1.75em; 
 }
 
+/* h2 element */
 h2 {
     font-size: 1.68em; 
+}
+
+/* paragraph element */
+p {
+    text-align: justify; 
 }
 
 /****** beginning of nav bar and logo section *****/
@@ -151,11 +157,27 @@ section {
     background-color: #ffffff;
 }
 
+.problem-background {
+    float: right; 
+    padding: 8px; 
+}
+
+.problem-background h3 {
+    padding: 8px; 
+}
+
+/****** beginning of the problem statement section *****/
+/****** created by Aida Tuhcic April 15th *****/
+.problem-statement {
+    padding: 8px;
+}
+/****** end of the resources section *****/
+
 /****** beginning of the resources section *****/
 /****** created by Aida Tuhcic April 13th *****/
 /* resources summary */
-.resource-summary {
-    padding: 8px; 
+.resources-summary {
+    padding: 8px;
 }
 
 /* resources */
@@ -194,6 +216,7 @@ section {
 .resources-link p {
     border-bottom: 6px solid #eb9e29;
     line-height: 2rem; 
+    text-align: center;
 }
 
 /* media query for smaller devices (resizes the resources section) */
@@ -305,6 +328,10 @@ section {
     background-color: #ebebeb;
     padding-top: 1px; 
     border-radius: 0 0 5px 5px;
+}
+
+.membername p {
+    text-align: center;
 }
 
 /* media query for smaller devices (resizes the row) */
