@@ -339,6 +339,9 @@ section {
 .experience-builder {
     padding: 8px; 
 }
+.process img {
+	width: 100%;
+}
 
 /* kobo process section */
 .kobotoolbox {
