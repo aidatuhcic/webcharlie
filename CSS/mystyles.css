@@ -354,7 +354,18 @@ section {
     padding: 8px; 
 }
 
+/* mapbox img */
 .mapboximg img {
+    width: 100%; 
+}
+
+/* leaflet img */
+.leaflet1 img {
+    width: 100%; 
+}
+
+/* leaflet img */
+.leaflet2 img {
     width: 100%; 
 }
 
@@ -366,6 +377,7 @@ section {
     font-size: 1.3rem;
 }
 
+/* experience builder h3 */
 .experience-builder h3 {
     text-transform: uppercase;
     text-align: center; 
