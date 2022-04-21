@@ -14,9 +14,9 @@ data: 'data2018.geojson'
 });
  
 map.addLayer({
-'id': 'earthquakes-layer',
+'id': 'park-layer',
 'type': 'circle',
-'source': 'earthquakes',
+'source': 'parks,csv',
 'paint': {
 'circle-radius': 8,
 'circle-stroke-width': 2,
