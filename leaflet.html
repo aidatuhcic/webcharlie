@@ -116,7 +116,7 @@
             {return L.Util.template("<b>{NAME}</b>",layer.feature.properties)});
 
             flayer.on('mouseout', function (e){
-                document.getElementById('info-pane').innerHTML = 'Hover to Inspect';
+                document.getElementById('info-pane').innerHTML = 'Hover over green space to inspect';
                 flayer.resetFeatureStyle(oldflayer);
             });
 
