@@ -340,13 +340,14 @@ section {
     padding: 8px; 
 }
 .process img {
-	width: 100%;
+	width: 75%;
 }
 
 /* kobo process section */
 .kobotoolbox {
     padding: 8px; 
 }
+
 
 /* leaflet process section */
 .leaflet {
