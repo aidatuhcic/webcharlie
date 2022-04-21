@@ -350,6 +350,18 @@ section {
     padding: 8px; 
 }
 
+.mapboximg img {
+    width: 100%; 
+}
+
+/* mapbox h3 */ 
+.mapbox-maps h3 {
+    text-transform: uppercase;
+    text-align: left; 
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
 /* solutions summary */
 .solutions-summary {
     padding: 8px; 
