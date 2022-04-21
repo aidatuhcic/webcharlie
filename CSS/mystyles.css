@@ -313,7 +313,8 @@ section {
     padding: 5px 5px; 
     text-align: center; 
     text-decoration: none;
-    width: 25%; 
+    border-bottom: 10px solid #ffffff;
+    width: 20%; 
     display: inline-block;
 }
 
@@ -339,8 +340,13 @@ section {
     padding: 8px; 
 }
 
-/* comparisons process section */
-.comparisons {
+/* kobo process section */
+.kobotoolbox {
+    padding: 8px; 
+}
+
+/* leaflet process section */
+.leaflet {
     padding: 8px; 
 }
 
@@ -389,6 +395,16 @@ section {
  .experiencebuilder-solution {
      padding: 8px; 
  }
+
+/* kobotoolbox solution section */
+.kobotoolbox-solution {
+    padding: 8px; 
+}
+
+/* leaflet solution section */
+.leaflet-solution {
+    padding: 8px; 
+}
 
  /* future possibilities solution section */
  .future {
