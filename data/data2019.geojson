@@ -1,0 +1,645 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.250568,43.764401 ]
+    },
+    "properties": {
+    "# Positive":0,
+    "BLT Adults and Nymphs":3,
+    "BLT Larvae":"0",
+    "Park Location":"Amberdale Ravine",
+    "Total BLTs":3,
+    "Year":2019,
+    "_id":153
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.318885,43.730593 ]
+    },
+    "properties": {
+    "# Positive":0,
+    "BLT Adults and Nymphs":0,
+    "BLT Larvae":"0",
+    "Park Location":"Anewen Greenbelt",
+    "Total BLTs":0,
+    "Year":2019,
+    "_id":154
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.38387,43.802815 ]
+    },
+    "properties": {
+    "# Positive":0,
+    "BLT Adults and Nymphs":0,
+    "BLT Larvae":"0",
+    "Park Location":"Bestview Park",
+    "Total BLTs":0,
+    "Year":2019,
+    "_id":155
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.161945,43.802283 ]
+    },
+    "properties": {
+    "# Positive":0,
+    "BLT Adults and Nymphs":1,
+    "BLT Larvae":"0",
+    "Park Location":"Bob Hunter Park",
+    "Total BLTs":1,
+    "Year":2019,
+    "_id":156
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.275149,43.809945 ]
+    },
+    "properties": {
+    "# Positive":0,
+    "BLT Adults and Nymphs":0,
+    "BLT Larvae":"0",
+    "Park Location":"Brimley Woods Park",
+    "Total BLTs":0,
+    "Year":2019,
+    "_id":157
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.329472,43.752359 ]
+    },
+    "properties": {
+    "# Positive":0,
+    "BLT Adults and Nymphs":0,
+    "BLT Larvae":"0",
+    "Park Location":"Brookbanks Park",
+    "Total BLTs":0,
+    "Year":2019,
+    "_id":158
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.206307,43.757582 ]
+    },
+    "properties": {
+    "# Positive":0,
+    "BLT Adults and Nymphs":2,
+    "BLT Larvae":"0",
+    "Park Location":"Cedar Ridge Park",
+    "Total BLTs":2,
+    "Year":2019,
+    "_id":159
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.329934,43.734522 ]
+    },
+    "properties": {
+    "# Positive":0,
+    "BLT Adults and Nymphs":0,
+    "BLT Larvae":"0",
+    "Park Location":"Charles Sauriol Conservation Area",
+    "Total BLTs":0,
+    "Year":2019,
+    "_id":160
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.178148,43.780349 ]
+    },
+    "properties": {
+    "# Positive":0,
+    "BLT Adults and Nymphs":2,
+    "BLT Larvae":"0",
+    "Park Location":"Colonel Danforth Trail",
+    "Total BLTs":2,
+    "Year":2019,
+    "_id":161
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.221507,43.723959 ]
+    },
+    "properties": {
+    "# Positive":0,
+    "BLT Adults and Nymphs":0,
+    "BLT Larvae":"0",
+    "Park Location":"Cudia Park",
+    "Total BLTs":0,
+    "Year":2019,
+    "_id":162
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.43183,43.753634 ]
+    },
+    "properties": {
+    "# Positive":0,
+    "BLT Adults and Nymphs":0,
+    "BLT Larvae":"0",
+    "Park Location":"Earl Bales Park",
+    "Total BLTs":0,
+    "Year":2019,
+    "_id":163
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.46093,43.778234 ]
+    },
+    "properties": {
+    "# Positive":0,
+    "BLT Adults and Nymphs":0,
+    "BLT Larvae":"0",
+    "Park Location":"G. Ross Lord Park",
+    "Total BLTs":0,
+    "Year":2019,
+    "_id":164
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.202446,43.756853 ]
+    },
+    "properties": {
+    "# Positive":0,
+    "BLT Adults and Nymphs":0,
+    "BLT Larvae":"0",
+    "Park Location":"Greenvale Park",
+    "Total BLTs":0,
+    "Year":2019,
+    "_id":165
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.190198,43.746621 ]
+    },
+    "properties": {
+    "# Positive":0,
+    "BLT Adults and Nymphs":1,
+    "BLT Larvae":"0",
+    "Park Location":"Guild Park and Gardens",
+    "Total BLTs":1,
+    "Year":2019,
+    "_id":166
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.203228,43.761387 ]
+    },
+    "properties": {
+    "# Positive":0,
+    "BLT Adults and Nymphs":2,
+    "BLT Larvae":"0",
+    "Park Location":"Highland Creek Park",
+    "Total BLTs":2,
+    "Year":2019,
+    "_id":167
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.459314,43.640264 ]
+    },
+    "properties": {
+    "# Positive":0,
+    "BLT Adults and Nymphs":2,
+    "BLT Larvae":"0",
+    "Park Location":"High Park",
+    "Total BLTs":2,
+    "Year":2019,
+    "_id":168
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.43598,43.761438 ]
+    },
+    "properties": {
+    "# Positive":0,
+    "BLT Adults and Nymphs":0,
+    "BLT Larvae":"0",
+    "Park Location":"Hinder Area",
+    "Total BLTs":0,
+    "Year":2019,
+    "_id":169
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.610324,43.724041 ]
+    },
+    "properties": {
+    "# Positive":0,
+    "BLT Adults and Nymphs":0,
+    "BLT Larvae":"0",
+    "Park Location":"Humberwood Park",
+    "Total BLTs":0,
+    "Year":2019,
+    "_id":170
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.504019,43.664009 ]
+    },
+    "properties": {
+    "# Positive":0,
+    "BLT Adults and Nymphs":1,
+    "BLT Larvae":"0",
+    "Park Location":"Lambton Park",
+    "Total BLTs":1,
+    "Year":2019,
+    "_id":171
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.497658,43.657497 ]
+    },
+    "properties": {
+    "# Positive":0,
+    "BLT Adults and Nymphs":1,
+    "BLT Larvae":"0",
+    "Park Location":"Magwood Park",
+    "Total BLTs":1,
+    "Year":2019,
+    "_id":172
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.236204,43.748362 ]
+    },
+    "properties": {
+    "# Positive":0,
+    "BLT Adults and Nymphs":1,
+    "BLT Larvae":"0",
+    "Park Location":"McCowan Park",
+    "Total BLTs":1,
+    "Year":2019,
+    "_id":173
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.38045,43.694749 ]
+    },
+    "properties": {
+    "# Positive":0,
+    "BLT Adults and Nymphs":0,
+    "BLT Larvae":"0",
+    "Park Location":"Moore Ravine Park",
+    "Total BLTs":0,
+    "Year":2019,
+    "_id":174
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.199891,43.776814 ]
+    },
+    "properties": {
+    "# Positive":1,
+    "BLT Adults and Nymphs":6,
+    "BLT Larvae":"0",
+    "Park Location":"Morningside Park",
+    "Total BLTs":6,
+    "Year":2019,
+    "_id":175
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.540814,43.716392 ]
+    },
+    "properties": {
+    "# Positive":0,
+    "BLT Adults and Nymphs":0,
+    "BLT Larvae":"0",
+    "Park Location":"Pine Point Park",
+    "Total BLTs":0,
+    "Year":2019,
+    "_id":176
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.158593,43.808778 ]
+    },
+    "properties": {
+    "# Positive":25,
+    "BLT Adults and Nymphs":52,
+    "BLT Larvae":"0",
+    "Park Location":"Rouge Park: Glen Eagle Vista Trail",
+    "Total BLTs":52,
+    "Year":2019,
+    "_id":177
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.571159,43.747986 ]
+    },
+    "properties": {
+    "# Positive":0,
+    "BLT Adults and Nymphs":0,
+    "BLT Larvae":"0",
+    "Park Location":"Rowntree Mills Park",
+    "Total BLTs":0,
+    "Year":2019,
+    "_id":178
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.2417,43.704145 ]
+    },
+    "properties": {
+    "# Positive":0,
+    "BLT Adults and Nymphs":0,
+    "BLT Larvae":"0",
+    "Park Location":"Scarborough Crescent Park",
+    "Total BLTs":0,
+    "Year":2019,
+    "_id":179
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.385619,43.716402 ]
+    },
+    "properties": {
+    "# Positive":0,
+    "BLT Adults and Nymphs":0,
+    "BLT Larvae":"0",
+    "Park Location":"Sherwood Park",
+    "Total BLTs":0,
+    "Year":2019,
+    "_id":180
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.36532,43.724281 ]
+    },
+    "properties": {
+    "# Positive":0,
+    "BLT Adults and Nymphs":0,
+    "BLT Larvae":"0",
+    "Park Location":"Sunnybrook Park",
+    "Total BLTs":0,
+    "Year":2019,
+    "_id":181
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.214018,43.729052 ]
+    },
+    "properties": {
+    "# Positive":0,
+    "BLT Adults and Nymphs":0,
+    "BLT Larvae":"0",
+    "Park Location":"Sylvan Park",
+    "Total BLTs":0,
+    "Year":2019,
+    "_id":182
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.306537,43.698874 ]
+    },
+    "properties": {
+    "# Positive":0,
+    "BLT Adults and Nymphs":0,
+    "BLT Larvae":"0",
+    "Park Location":"Taylor Creek Park",
+    "Total BLTs":0,
+    "Year":2019,
+    "_id":183
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.363238,43.621925 ]
+    },
+    "properties": {
+    "# Positive":0,
+    "BLT Adults and Nymphs":7,
+    "BLT Larvae":"0",
+    "Park Location":"Toronto Islands: Algonquin Island Park",
+    "Total BLTs":7,
+    "Year":2019,
+    "_id":184
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.379481,43.62083 ]
+    },
+    "properties": {
+    "# Positive":0,
+    "BLT Adults and Nymphs":1,
+    "BLT Larvae":"0",
+    "Park Location":"Toronto Islands: Centre Island",
+    "Total BLTs":1,
+    "Year":2019,
+    "_id":185
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.356551,43.626964 ]
+    },
+    "properties": {
+    "# Positive":0,
+    "BLT Adults and Nymphs":1,
+    "BLT Larvae":"0",
+    "Park Location":"Toronto Islands: Ward's",
+    "Total BLTs":1,
+    "Year":2019,
+    "_id":186
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.187138,43.810163 ]
+    },
+    "properties": {
+    "# Positive":9,
+    "BLT Adults and Nymphs":39,
+    "BLT Larvae":"0",
+    "Park Location":"Upper Rouge Trail Park",
+    "Total BLTs":39,
+    "Year":2019,
+    "_id":187
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.282249,43.704404 ]
+    },
+    "properties": {
+    "# Positive":0,
+    "BLT Adults and Nymphs":0,
+    "BLT Larvae":"0",
+    "Park Location":"Warden Woods Park",
+    "Total BLTs":0,
+    "Year":2019,
+    "_id":188
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.560164,43.661328 ]
+    },
+    "properties": {
+    "# Positive":1,
+    "BLT Adults and Nymphs":1,
+    "BLT Larvae":"0",
+    "Park Location":"West Deane Park (North)",
+    "Total BLTs":1,
+    "Year":2019,
+    "_id":189
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.35078,43.723265 ]
+    },
+    "properties": {
+    "# Positive":0,
+    "BLT Adults and Nymphs":0,
+    "BLT Larvae":"0",
+    "Park Location":"Wilket Creek Park",
+    "Total BLTs":0,
+    "Year":2019,
+    "_id":190
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.375184,43.742739 ]
+    },
+    "properties": {
+    "# Positive":0,
+    "BLT Adults and Nymphs":0,
+    "BLT Larvae":"0",
+    "Park Location":"Windfields Park",
+    "Total BLTs":0,
+    "Year":2019,
+    "_id":191
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "# Positive":null,
+    "BLT Adults and Nymphs":null,
+    "BLT Larvae":"",
+    "Park Location":"",
+    "Total BLTs":123,
+    "Year":null,
+    "_id":null
+    }
+  }
+]
+}
