@@ -1,4 +1,4 @@
-mapboxgl.accessToken = 'pk.eyJ1Ijoic3VuYXNhc2hpIiwiYSI6ImNsMXhvNnpmeTA0b2EzY281NHd3eWp2bm8ifQ.FJ6hyKEqn4EnsT69WRMVsA';
+mapboxgl.accessToken = 'pk.eyJ1Ijoic3VuYXNhc2hpIiwiYSI6ImNsMjliODl4ZDBmN3EzZHJ0MTRiOXE2bmQifQ.cjzmlIr7bLvl4_s_7oY0Aw';
 const map = new mapboxgl.Map({
 container: 'map1', // container ID
 style: 'mapbox://styles/mapbox/satellite-v9', // style URL
