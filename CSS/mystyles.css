@@ -512,3 +512,10 @@ footer {
      font-size: 1.1em;
 }
 /****** end of the footer section *****/
+
+  bodyip { margin: 0; padding: 0; 
+}
+
+  #map { position: absolute; top: 0; bottom: 0; width: 100%; 
+}
+  
