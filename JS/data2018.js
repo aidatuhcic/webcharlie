@@ -7,21 +7,21 @@ center: [43.6532, -79.3832] // starting center
 });
  
 map.on('load', () => {
-map.addSource('earthquakes', {
+map.addSource('data2018', {
 type: 'geojson',
 // Use a URL for the value for the `data` property.
-data: 'data2018.geojson'
+data: 'data/data2018.geojson'
 });
  
 map.addLayer({
-'id': 'park-layer',
-'type': 'circle',
-'source': 'parks,csv',
+'id': 'parks-layer',
+'type': 'polygon',
+'source': 'data/parks.csv',
 'paint': {
-'circle-radius': 8,
-'circle-stroke-width': 2,
-'circle-color': 'red',
-'circle-stroke-color': 'white'
+'polygon-stroke-width': 2,
+'polygon-color': 'green',
+'polygon-stroke-color': 'green'
 }
 });
 });
+
