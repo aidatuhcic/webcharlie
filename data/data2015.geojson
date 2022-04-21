@@ -432,22 +432,6 @@
     "Year":2015,
     "_id":32
     }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  { }
-    },
-    "properties": {
-    "# Positive":"",
-    "BLT Adults and Nymphs":null,
-    "BLT Larvae":"",
-    "Park Location":"",
-    "Total BLTs":17,
-    "Year":null,
-    "_id":null
-    }
   }
 ]
 }
