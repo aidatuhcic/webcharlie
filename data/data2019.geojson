@@ -624,22 +624,6 @@
     "Year":2019,
     "_id":191
     }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  { }
-    },
-    "properties": {
-    "# Positive":null,
-    "BLT Adults and Nymphs":null,
-    "BLT Larvae":"",
-    "Park Location":"",
-    "Total BLTs":123,
-    "Year":null,
-    "_id":null
-    }
   }
 ]
 }
