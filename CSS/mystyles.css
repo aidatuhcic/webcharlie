@@ -366,6 +366,13 @@ section {
     font-size: 1.3rem;
 }
 
+.experience-builder h3 {
+    text-transform: uppercase;
+    text-align: center; 
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
 /* solutions summary */
 .solutions-summary {
     padding: 8px; 
