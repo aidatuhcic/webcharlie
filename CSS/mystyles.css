@@ -382,7 +382,7 @@ section {
     text-align: center; 
     text-decoration: none;
     border-bottom: 10px solid #ffffff;
-    width: 25%; 
+    width: 22%; 
     display: inline-block;
 }
 
@@ -417,11 +417,6 @@ section {
 .leaflet-solution {
     padding: 8px; 
 }
-
- /* future possibilities solution section */
- .future {
-     padding: 8px; 
- }
 
 /****** beginning of the teams.html section *****/
 /****** created by Aida Tuhcic April 11th through 12th *****/
